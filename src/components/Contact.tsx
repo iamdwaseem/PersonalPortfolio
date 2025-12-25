@@ -85,7 +85,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-4">
-                <input type="hidden" name="access_key" value="d29263d4-4883-4169-b288-59bf27f6946a" />
+                <input type="hidden" name="access_key" value={import.meta.env.VITE_WEB3FORMS_ACCESS_KEY} />
                 
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-1">Name</label>
