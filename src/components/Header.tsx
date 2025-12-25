@@ -11,7 +11,7 @@ const Header = () => {
             </div>
             <div className="flex flex-col leading-none">
               <span className="text-3xl font-black bg-gradient-to-r from-red-600 via-blue-600 to-purple-600 bg-clip-text text-transparent tracking-tighter">
-                W.
+                Waseem
               </span>
             </div>
           </div>
