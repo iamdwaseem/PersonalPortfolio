@@ -8,6 +8,7 @@ const Projects = () => {
       description: "Full-stack portfolio with a secure admin dashboard for complete CRUD management of projects, skills, and tools. Features image uploads via Cloudinary, JWT authentication, and HTTP-only cookies for session security.",
       tech: ["Next.js 16", "TypeScript", "Tailwind CSS", "MongoDB", "Express.js"],
       github: "https://github.com/iamdwaseem/portfolio_Updated",
+      link: "https://portfolio-updated-livid.vercel.app/",
       image: "/projects/portfolio.png",
       color: "from-gray-700 to-gray-900"
     },
@@ -16,6 +17,7 @@ const Projects = () => {
       description: "Full-stack event discovery and ticket booking platform with Supabase SSR authentication and role-based access control. PayPal Checkout integration for secure ticket payments and an admin dashboard for event management.",
       tech: ["Next.js 16", "TypeScript", "Supabase", "PayPal"],
       github: "https://github.com/iamdwaseem/EventApp",
+      link: "https://github.com/iamdwaseem/EventApp",
       image: "/projects/eventify.png",
       color: "from-purple-500 to-purple-700"
     },
@@ -24,6 +26,7 @@ const Projects = () => {
       description: "Aptitude-based career guidance web application offering dynamic career, course, and college recommendations using Supabase. Features a multilingual AI assistant and interactive explorers with filters.",
       tech: ["React", "TypeScript", "Vite", "Supabase"],
       github: "https://github.com/iamdwaseem/CareerStep",
+      link: "https://github.com/iamdwaseem/CareerStep",
       image: "/projects/nextstep.png",
       color: "from-indigo-500 to-indigo-700"
     },
@@ -32,14 +35,16 @@ const Projects = () => {
       description: "Machine learning system to classify news as real or fake using NLP preprocessing with TF-IDF, tokenization, and stop-word removal. Supervised models trained with Scikit-learn for real-time inference.",
       tech: ["Python", "NLP", "Machine Learning", "Scikit-learn"],
       github: "https://github.com/iamdwaseem/FakeNewsDetection",
+      link: "https://github.com/iamdwaseem/FakeNewsDetection",
       image: "/projects/fakenews.png",
       color: "from-red-500 to-red-700"
     },
-     {
+    {
       title: "Payment Wallet System (Paytm Clone)",
       description: "Peer-to-peer digital wallet system enabling secure money transfers. Features JWT-based authentication, protected APIs, and MongoDB schemas for users, balances, and transactions.",
       tech: ["MongoDB", "Express.js", "React", "Node.js", "JWT"],
       github: "https://github.com/iamdwaseem/paytm-clone",
+      link: "https://github.com/iamdwaseem/paytm-clone",
       image: "/projects/paytm.png",
       color: "from-blue-500 to-blue-700"
     },
@@ -82,7 +87,7 @@ const Projects = () => {
                     <Github className="w-4 h-4 mr-2" />
                     <span>Code</span>
                   </a>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer"
+                  <a href={project.link} target="_blank" rel="noopener noreferrer"
                      className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
                     <ExternalLink className="w-4 h-4 mr-2" />
                     <span>View</span>

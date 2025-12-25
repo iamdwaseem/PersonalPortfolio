@@ -1,13 +1,21 @@
-import React from 'react';
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Header = () => {
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Mohammed Waseemuddin
+          <div className="flex items-center space-x-3 group cursor-pointer">
+            <div className="relative w-12 h-12 overflow-hidden rounded-xl bg-gradient-to-br from-red-600 via-blue-600 to-black p-0.5 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-xl">
+              <img src="/logo.png" alt="Waseem Logo" className="w-full h-full object-cover rounded-[10px] bg-slate-900" />
+            </div>
+            <div className="flex flex-col leading-none">
+              <span className="text-2xl font-black bg-gradient-to-r from-red-600 via-blue-600 to-purple-600 bg-clip-text text-transparent tracking-tighter">
+                WASEEM.
+              </span>
+              <span className="text-[10px] font-bold text-gray-500 tracking-[0.2em] uppercase">
+              </span>
+            </div>
           </div>
           
           <nav className="hidden md:flex space-x-8">
