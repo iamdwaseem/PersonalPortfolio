@@ -10,10 +10,8 @@ const Header = () => {
               <img src="/logo.png" alt="Waseem Logo" className="w-full h-full object-cover rounded-[10px] bg-slate-900" />
             </div>
             <div className="flex flex-col leading-none">
-              <span className="text-2xl font-black bg-gradient-to-r from-red-600 via-blue-600 to-purple-600 bg-clip-text text-transparent tracking-tighter">
-                WASEEM.
-              </span>
-              <span className="text-[10px] font-bold text-gray-500 tracking-[0.2em] uppercase">
+              <span className="text-3xl font-black bg-gradient-to-r from-red-600 via-blue-600 to-purple-600 bg-clip-text text-transparent tracking-tighter">
+                W.
               </span>
             </div>
           </div>
